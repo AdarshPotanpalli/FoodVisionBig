@@ -3,6 +3,14 @@
 **EfficientNet B2** is trained on 20% of **FOOD101** for multiclass food-image classification.
 
 ---
+
+### 🍔 Live Demo
+
+Try out the **Food Vision Big** demo on Hugging Face Spaces:  
+[![Food Vision Big Demo](https://img.shields.io/badge/Live%20Demo-%F0%9F%8D%94-blue?style=for-the-badge)](https://huggingface.co/spaces/AdarshPotanpalli/Food_Vision_Big)
+
+> Click the badge above to explore the food image classification model in action!
+
 ---
 `data_setup.py`:
 * `create_dataloaders`: takes in data directory and creates train and test datasets(FOOD101) then converts them into train and test dataloaders
